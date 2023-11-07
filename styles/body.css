@@ -1,0 +1,34 @@
+*{
+    padding:0;
+    margin:0;
+    
+}
+
+.bodyContent{
+    display: flex;
+    flex-direction:column;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+#projectsText{
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-weight: 700;
+}
+.projects{
+    margin-top: 2rem;
+    display:flex;
+    flex-direction: row;
+}
+
+.projectText{
+    flex-direction: column;
+}
+
+.projectTitle{
+    font-weight:700;
+}
