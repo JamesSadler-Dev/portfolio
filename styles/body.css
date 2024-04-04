@@ -1,7 +1,11 @@
 *{
     padding:0;
     margin:0;
-    
+    font-family: sans-serif;
+}
+
+body{
+    margin-top: 5rem;
 }
 
 .bodyContent{
@@ -14,15 +18,25 @@
     font-size: 2rem;
 }
 
+.aboutme{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+
 #projectsText{
     font-size: 2rem;
     margin-top: 2rem;
     font-weight: 700;
+    font-size: 4rem;
 }
+
 .projects{
     margin-top: 2rem;
     display:flex;
     flex-direction: row;
+    font-size:4rem;
+
 }
 
 .projectText{
@@ -31,4 +45,12 @@
 
 .projectTitle{
     font-weight:700;
+}
+
+.projects img{
+    height: 28rem;
+}
+
+.projects p{
+    margin-right: 3rem;
 }

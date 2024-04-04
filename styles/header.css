@@ -4,13 +4,19 @@
 }
 header{
     display: flex;
-    background-color:darkgrey;
+    background-image: linear-gradient(#A50000,#fc0000);
     height:5rem;
     align-items: center;
     justify-content: center;
     font-weight:1000;
     overflow-wrap: break-word;
+    box-shadow: 0 4px black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
 }
+
 
 .title{
     font-size: 3rem;
