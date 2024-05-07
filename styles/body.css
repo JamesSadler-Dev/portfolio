@@ -49,6 +49,8 @@ body{
 
 .projects img{
     height: 28rem;
+    width: 28rem;
+    object-fit:scale-down;
 }
 
 .projects p{
