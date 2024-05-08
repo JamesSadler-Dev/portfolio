@@ -10,7 +10,7 @@ header{
     justify-content: center;
     font-weight:1000;
     overflow-wrap: break-word;
-    box-shadow: 0 4px black;
+    box-shadow: 0 2px black;
     position: fixed;
     top: 0px;
     left: 0px;
