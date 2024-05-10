@@ -12,6 +12,8 @@
         justify-content: center;
         font-weight:1000;
         overflow-wrap: break-word;
+        font-size: 1rem;
+        width: 100%;
     }
     
     .title{
@@ -54,6 +56,76 @@
     .projects img{
         height: 35rem;
         width: 35rem;
+        object-fit:scale-down;
+    }
+
+    .aboutme{
+        font-size: 2rem;
+    }
+}
+
+
+
+@media(max-width:600px){
+
+    *{
+        padding:0%;
+        margin:0%;
+    }
+    header{
+        display: flex;
+        background-color:darkgrey;
+        height:5rem;
+        align-items: center;
+        justify-content: center;
+        font-weight:1000;
+        font-size: 1rem;
+        overflow-wrap: break-word;
+    }
+    
+    .title{
+        font-size: 1.5rem;
+    }
+    
+    
+    .bodyContent{
+        display: flex;
+        flex-direction:column;
+        flex:1;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        font-size: 1.5rem;
+        width: 100%;
+    }
+    
+    #projectsText{
+        font-size: 4rem;
+        margin-top: 2rem;
+        font-weight: 700;
+    }
+    
+    .projects{
+        width: 100%;
+        margin-top: 3rem;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+    
+    .projectText{
+        flex-direction: column;
+    }
+    
+    .projectTitle{
+        font-weight:700;
+    }
+
+    .projects img{
+        height: 30rem;
+        width: 30rem;
         object-fit:scale-down;
     }
 }
