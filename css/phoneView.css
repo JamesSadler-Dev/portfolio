@@ -66,6 +66,12 @@
     .projects p{
         margin-right: 0px;
     }
+
+    footer{
+        width: 100%;
+        margin: 0;
+        padding:0;
+    }
 }
 
 
@@ -91,7 +97,7 @@
     }
     
     .title{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     
     
@@ -107,7 +113,7 @@
     }
     
     #projectsText{
-        font-size: 4rem;
+        font-size: 3rem;
         margin-top: 2rem;
         font-weight: 700;
     }
@@ -136,7 +142,14 @@
         object-fit:scale-down;
     }
 
-    .projects p{
-        margin-right: 0px;
+}
+
+@media(max-width:400px){
+
+    .projects img{
+        height: 20rem;
+        width: 20rem;
+        object-fit:scale-down;
     }
+
 }
