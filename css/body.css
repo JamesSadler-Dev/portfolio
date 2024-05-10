@@ -7,6 +7,7 @@
 
 body{
     margin-top: 5rem;
+    padding: 2px;
 }
 
 .bodyContent{
@@ -17,6 +18,7 @@ body{
     justify-content: center;
     padding: 2rem;
     font-size: 2rem;
+    width: 100%;
 }
 
 .aboutme{
@@ -50,8 +52,8 @@ body{
 }
 
 .projects img{
-    height: 28rem;
-    width: 28rem;
+    height: 35rem;
+    width: 35rem;
     object-fit:scale-down;
 }
 

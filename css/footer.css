@@ -6,4 +6,5 @@ footer{
     justify-content: space-around;
     font-weight: bold;
     border: 1px black solid;
+    width: 100%;
 }
