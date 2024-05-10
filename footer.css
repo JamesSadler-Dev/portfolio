@@ -1,5 +1,5 @@
 footer{
-    background-color:red;
+    background-image: linear-gradient(rgb(0, 100, 255),rgb(0, 150, 255));
     height:3rem;
     display: flex;
     align-items: center;

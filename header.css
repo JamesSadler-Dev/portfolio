@@ -4,7 +4,7 @@
 }
 header{
     display: flex;
-    background-image: linear-gradient(#A50000,#fc0000);
+    background-image: linear-gradient(rgb(0, 100, 255),rgb(0, 150, 255));
     height:5rem;
     align-items: center;
     justify-content: center;
