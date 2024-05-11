@@ -34,6 +34,9 @@ body{
     font-size: 4rem;
 }
 
+.projects-tech{
+    font-style: italic;
+}
 
 .projects{
     margin-top: 5rem;
