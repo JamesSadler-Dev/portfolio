@@ -59,6 +59,9 @@
 
 @media(max-width:950px){
 
+    br{
+        display: none;
+    }
     .aboutme{
         font-size: 1.25rem;
     }
