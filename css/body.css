@@ -62,3 +62,11 @@ body{
 .projects p{
     margin-right: 3rem;
 }
+
+.projectlinks{
+    transition: .75s opacity;
+}
+
+.projectlinks:hover{
+    opacity:.6;
+}
