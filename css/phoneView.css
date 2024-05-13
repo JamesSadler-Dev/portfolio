@@ -78,6 +78,13 @@
     .title{
         font-size: 1.2rem;
     }
+
+    #experience{
+        font-size: 1rem;
+    }
+    .experience-certifications{
+        font-size: 1rem;
+    }
     
     .bodyContent{
         display: flex;
@@ -126,4 +133,8 @@
         width: 20rem;
     }
 
+    .experience-certifications{
+        font-size: .8rem;
+    }
+    
 }
