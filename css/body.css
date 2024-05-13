@@ -32,6 +32,8 @@ body{
     margin-bottom: 1rem;
     font-weight: 700;
     font-size: 4rem;
+    border: 1px black solid;
+    padding: 10px;
 }
 
 .projects-tech{
@@ -71,3 +73,6 @@ body{
     opacity:.65;
 }
 
+.experience-certifications{
+    margin-bottom: 1.5rem;
+}
