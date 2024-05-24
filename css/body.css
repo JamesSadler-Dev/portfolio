@@ -32,9 +32,8 @@ body{
     margin-bottom: 1rem;
     font-weight: 700;
     font-size: 4rem;
-    border: 1px black solid;
     padding: 10px;
-    background-color:lightgray;
+    text-decoration: underline;
 }
 
 .projects-tech{
@@ -76,4 +75,18 @@ body{
 
 .experience-certifications{
     margin-bottom: 1.5rem;
+}
+
+#experience{
+    text-decoration: underline;
+}
+
+.experience-certifications li{
+    margin-top: 1.1rem;
+    margin-bottom: 1.1rem;
+}
+
+.programming-skills{
+    margin-left: 10px;
+    list-style-type:none;
 }
