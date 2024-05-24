@@ -124,6 +124,10 @@
         width: 25rem;
     }
 
+    .experience-certifications li{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
 }
 
 @media(max-width:400px){
