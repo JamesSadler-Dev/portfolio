@@ -90,3 +90,7 @@ body{
     margin-left: 10px;
     list-style-type:none;
 }
+
+.programming-skills b{
+    text-decoration: underline;
+}
