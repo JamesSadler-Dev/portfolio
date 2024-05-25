@@ -73,24 +73,3 @@ body{
     opacity:.65;
 }
 
-.experience-certifications{
-    margin-bottom: 1.5rem;
-}
-
-#experience{
-    text-decoration: underline;
-}
-
-.experience-certifications li{
-    margin-top: 1.1rem;
-    margin-bottom: 1.1rem;
-}
-
-.programming-skills{
-    margin-left: 10px;
-    list-style-type:none;
-}
-
-.programming-skills b{
-    text-decoration: underline;
-}

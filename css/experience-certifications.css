@@ -1,0 +1,91 @@
+.experience-certifications{
+    margin-bottom: 1.5rem;
+}
+
+#experience{
+    text-decoration: underline;
+}
+
+.experience-certifications li{
+    margin-top: 1.1rem;
+    margin-bottom: 1.1rem;
+}
+
+ul ul{
+    color:darkred;
+}
+
+.programming-skills{
+    margin-left: 10px;
+    list-style-type:none;
+}
+
+.programming-skills b{
+    text-decoration: underline;
+}
+
+
+@media(min-width:350px){
+
+    
+    #experience{
+        font-size: 1.4rem;
+    }
+
+    .experience-certifications li{
+        font-size: 1rem;
+    }
+
+}
+
+
+@media(min-width:600px){
+
+    #experience{
+        font-size: 2rem;
+    }
+
+    .experience-certifications li{
+        font-size: 1.4rem;
+    }
+}
+
+@media(min-width:900px){
+    .experience-certifications li{
+        font-size: 1.4rem;
+    }
+}
+
+@media(min-width:1160px){
+    .experience-certifications{
+        display:flex;
+        flex:1;
+        border: 1px solid black;
+        box-shadow: 2px 2px black;
+    }
+
+    .experience-certifications li{
+        padding-left: 1rem;
+        padding-right:1rem;
+        list-style-type: none;
+        font-size: 1rem;
+    }
+}
+
+@media(min-width:1350px){
+    .experience-certifications li{
+        font-size: 1.2rem;
+    }
+}
+@media(min-width:1695px){
+
+    .experience-certifications li{
+        font-size: 1.5rem;
+    }
+}
+
+@media(min-width:1800px){
+    .experience-certifications li{
+        font-size: 1.6rem;
+    }
+}
