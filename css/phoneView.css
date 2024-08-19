@@ -1,4 +1,4 @@
-@media(max-width:1200px){
+@media(max-width:1400px){
 
     header{
         height:5rem;
@@ -39,8 +39,8 @@
     }
 
     .projects img{
-        height: 35rem;
-        width: 35rem;
+        height: 30rem;
+        width: 30rem;
     }
 
     .aboutme{
@@ -57,7 +57,7 @@
 }
 
 
-@media(max-width:970px){
+@media(max-width:1000px){
 
     br{
         display: none;
